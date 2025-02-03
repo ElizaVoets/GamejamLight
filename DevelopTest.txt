@@ -1,0 +1,6 @@
+You are NOT on the develop branch.
+
+1. open your cmd by typing "cmd" in the search bar above
+2. check if you have pulled and / or pushed everything
+3. git checkout develop
+4. make branches from that branch.
