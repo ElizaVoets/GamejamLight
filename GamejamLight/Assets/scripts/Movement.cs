@@ -7,6 +7,7 @@ public class Movement : MonoBehaviour
     private Rigidbody2D rb; // Rigidbody component
     private bool isGrounded; // Controleert of de speler op de grond is
     [SerializeField] private float G = 9.807f;
+    [SerializeField] private int dashDistance;
 
     private Vector2 movement; // Beweging vector
 
@@ -31,10 +32,8 @@ public class Movement : MonoBehaviour
         }
 
         // Controleer of de speler springt
-        if (Input.GetButtonDown("Jump") && isGrounded)
-        {
-            Jump();
-        }
+        if (Input.GetButtonDown("Jump") && isGrounded) Jump();
+        if (Input.GetKeyDown(KeyCode.LeftShift)) Dash();
     }
 
     void FixedUpdate()
@@ -48,6 +47,12 @@ public class Movement : MonoBehaviour
         // Voeg een sprongetje toe
         movement.y = jumpForce;
         isGrounded = false; // De speler is nu in de lucht
+    }
+    void Dash()
+    {
+        Vector2 dir = new Vector2( Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical"));
+        dir.Normalize();
+        rb.MovePosition(dir * dashDistance + rb.position);
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
