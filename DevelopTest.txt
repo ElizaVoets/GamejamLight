@@ -1,0 +1,4 @@
+You are on the develop branch.
+From here, you make branches by doing:
+
+Git branch [branch name]
