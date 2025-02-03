@@ -8,17 +8,22 @@ public class Movement : MonoBehaviour
     private bool isGrounded; // Controleert of de speler op de grond is
     [SerializeField] private float G = 9.807f;
     [SerializeField] private int dashDistance;
+    int jumps;
+    int dashes;
 
     private Vector2 movement; // Beweging vector
 
     void Start()
     {
+        jumps = 1;
+        dashes = 2;
         // Verkrijg de Rigidbody2D component
         rb = GetComponent<Rigidbody2D>();
     }
 
     void Update()
     {
+
         // Verkrijg invoer van de speler
         movement.x = Input.GetAxis("Horizontal") * moveSpeed;
 
@@ -29,11 +34,13 @@ public class Movement : MonoBehaviour
         else 
         { 
             movement.y = -0.1f;
+            jumps = 1;
+            dashes = 2;
         }
 
         // Controleer of de speler springt
-        if (Input.GetButtonDown("Jump") && isGrounded) Jump();
-        if (Input.GetKeyDown(KeyCode.LeftShift)) Dash();
+        if (Input.GetKeyDown(KeyCode.Space) && jumps > 0) Jump();
+        if (Input.GetKeyDown(KeyCode.LeftShift) && dashes > 0) Dash();
     }
 
     void FixedUpdate()
@@ -44,12 +51,14 @@ public class Movement : MonoBehaviour
 
     void Jump()
     {
+        jumps--;
         // Voeg een sprongetje toe
         movement.y = jumpForce;
         isGrounded = false; // De speler is nu in de lucht
     }
     void Dash()
     {
+        dashes--;
         Vector2 dir = new Vector2( Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical"));
         dir.Normalize();
         rb.MovePosition(dir * dashDistance + rb.position);
