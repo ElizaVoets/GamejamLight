@@ -1,3 +1,4 @@
+using Unity.Mathematics;
 using UnityEngine;
 
 public class Movement : MonoBehaviour
@@ -8,15 +9,16 @@ public class Movement : MonoBehaviour
     private bool isGrounded; // Controleert of de speler op de grond is
     [SerializeField] private float G = 9.807f;
     [SerializeField] private int dashDistance;
-    int jumps;
-    int dashes;
+    [SerializeField] private ParticleSystem particles;
+    [SerializeField] int jumps;
+    [SerializeField] int dashes;
 
     private Vector2 movement; // Beweging vector
 
     void Start()
     {
         jumps = 1;
-        dashes = 2;
+        dashes = 1;
         // Verkrijg de Rigidbody2D component
         rb = GetComponent<Rigidbody2D>();
     }
@@ -35,7 +37,7 @@ public class Movement : MonoBehaviour
         { 
             movement.y = -0.1f;
             jumps = 1;
-            dashes = 2;
+            dashes = 1;
         }
 
         // Controleer of de speler springt
@@ -58,10 +60,20 @@ public class Movement : MonoBehaviour
     }
     void Dash()
     {
-        dashes--;
-        Vector2 dir = new Vector2( Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical"));
+        
+        Vector2 dir = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical"));
         dir.Normalize();
-        rb.MovePosition(dir * dashDistance + rb.position);
+        RaycastHit hit;
+        particles.Play();
+        if (Physics.Raycast(transform.position, dir, out hit) && hit.distance < dashDistance)
+        {
+            rb.MovePosition(hit.point);
+        }
+        else
+        {
+            rb.MovePosition(dir * dashDistance + rb.position);
+        }
+        dashes--;
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
