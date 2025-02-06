@@ -1,3 +1,4 @@
+using System.Collections;
 using Unity.Mathematics;
 using UnityEditor.U2D;
 using UnityEngine;
@@ -13,6 +14,7 @@ public class Movement : MonoBehaviour
     [SerializeField] private ParticleSystem particles;
     [SerializeField] int jumps;
     [SerializeField] int dashes;
+    bool canDash = true;
 
 
     // animation variables
@@ -78,7 +80,6 @@ public class Movement : MonoBehaviour
     }
     void Dash()
     {
-        
         Vector2 dir = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical"));
         dir.Normalize();
         RaycastHit hit;
@@ -92,6 +93,9 @@ public class Movement : MonoBehaviour
             rb.MovePosition(dir * dashDistance + rb.position);
         }
         dashes--;
+        canDash = false;
+        movement.y = 0;
+        StartCoroutine(dashCoolDown());
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
@@ -108,5 +112,10 @@ public class Movement : MonoBehaviour
         {
             isGrounded = false;
         }
+    }
+    IEnumerator dashCoolDown()
+    {
+        yield return new WaitForSeconds(0.5f);
+        canDash = true;
     }
 }
