@@ -138,6 +138,19 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -466,7 +479,22 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      SpriteMagnusIrrumatus 1_0: 373046399900593212
+      SpriteMagnusIrrumatus 1_1: 666250299697639697
+      SpriteMagnusIrrumatus 1_10: 2620293606097904481
+      SpriteMagnusIrrumatus 1_11: 3863214870819105050
+      SpriteMagnusIrrumatus 1_12: -312784168689146723
+      SpriteMagnusIrrumatus 1_13: 6092612525817189610
+      SpriteMagnusIrrumatus 1_14: 7165313692141294081
+      SpriteMagnusIrrumatus 1_2: -5085989262272451421
+      SpriteMagnusIrrumatus 1_3: 5394475267055973139
+      SpriteMagnusIrrumatus 1_4: -7096478185007515230
+      SpriteMagnusIrrumatus 1_5: -4336421131867829642
+      SpriteMagnusIrrumatus 1_6: 6280699717153330855
+      SpriteMagnusIrrumatus 1_7: 4210839903339318852
+      SpriteMagnusIrrumatus 1_8: 4252492855970513032
+      SpriteMagnusIrrumatus 1_9: 6079460665896613431
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
