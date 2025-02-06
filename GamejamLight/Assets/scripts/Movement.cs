@@ -1,5 +1,6 @@
 using System.Collections;
 using Unity.Mathematics;
+using UnityEditor.U2D;
 using UnityEngine;
 
 public class Movement : MonoBehaviour
@@ -15,6 +16,10 @@ public class Movement : MonoBehaviour
     [SerializeField] int dashes;
     bool canDash = true;
 
+
+    // animation variables
+    public Animator movementAnim;
+    public SpriteRenderer spriteRenderer;
     private Vector2 movement; // Beweging vector
 
     void Start()
@@ -44,7 +49,20 @@ public class Movement : MonoBehaviour
 
         // Controleer of de speler springt
         if (Input.GetKeyDown(KeyCode.Space) && jumps > 0) Jump();
-        if (Input.GetKeyDown(KeyCode.LeftShift) && dashes > 0 && canDash) Dash();
+        if (Input.GetKeyDown(KeyCode.LeftShift) && dashes > 0) Dash();
+
+
+        float move = Input.GetAxisRaw("Horizontal");
+        bool isMoving = move != 0; // True if player is moving, false if idle
+        
+        // Set animation parameter
+        movementAnim.SetBool("isMoving", isMoving);
+
+        // Flip the sprite based on movement direction
+        if (isMoving)
+        {
+            spriteRenderer.flipX = move < 0;
+        }
     }
 
     void FixedUpdate()
@@ -101,3 +119,4 @@ public class Movement : MonoBehaviour
         canDash = true;
     }
 }
+ 
