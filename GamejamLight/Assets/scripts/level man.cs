@@ -17,22 +17,24 @@ public class levelman : MonoBehaviour
         level = Instantiate(levels[levelIndex]);
         level.transform.position = Vector3.right * posindex;
         transform.position = Vector3.right * posindex;
+        posindex += levelLenght[levelIndex];
+
     }
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.gameObject.tag == "player")
+        if (collision.gameObject.tag == "Player")
         {
             int levelIndex = Random.Range(0, levels.Length);
             GameObject level = Instantiate(levels[levelIndex]);
             level.transform.position = Vector3.right * posindex;
-            posindex += levelLenght[levelIndex];
             transform.position = Vector3.right * posindex;
+            posindex += levelLenght[levelIndex];
 
         }
     }
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.gameObject.tag == "player")
+        if (collision.gameObject.tag == "Player")
         {
             int levelIndex = Random.Range(0, levels.Length);
             GameObject level = Instantiate(levels[levelIndex]);
@@ -43,3 +45,4 @@ public class levelman : MonoBehaviour
         }
     }
 }
+ 

@@ -28,4 +28,4 @@ public class lightOnOF : MonoBehaviour
         yield return new WaitForSeconds(waitTime);
         StartCoroutine(lampAan());
     }
-}
+} 

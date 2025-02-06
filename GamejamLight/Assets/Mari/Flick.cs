@@ -38,4 +38,4 @@ public class Flick : MonoBehaviour
 
         light.intensity = randomValue;
     }
-}
+} 

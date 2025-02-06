@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Rendering;
 using UnityEngine.Rendering.Universal;
+using UnityEngine.SceneManagement;
 
 public class health : MonoBehaviour
 {
@@ -14,6 +15,10 @@ public class health : MonoBehaviour
         {
             hp -= Time.deltaTime * 20;
         }
+        if (hp <= 0)
+        {
+            SceneManager.LoadScene(0);
+        }
     }
     private void OnTriggerEnter2D(Collider2D collision)
     {
@@ -23,7 +28,7 @@ public class health : MonoBehaviour
         }
         else if (collision.gameObject.tag == "Death")
         {
-
+            hp = 0;
         }
     }
     private void OnTriggerExit2D(Collider2D collision)
@@ -34,3 +39,4 @@ public class health : MonoBehaviour
         }
     }
 }
+ 
