@@ -451,7 +451,7 @@ GameObject:
   - component: {fileID: 1689100365644808582}
   m_Layer: 0
   m_Name: New Piskel-1.png-2.png (1)_0 (4)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -584,7 +584,7 @@ GameObject:
   - component: {fileID: 4835183831037765685}
   m_Layer: 0
   m_Name: New Piskel-1.png-2.png (1)_0 (3)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -936,7 +936,7 @@ GameObject:
   - component: {fileID: 6192053870085601933}
   m_Layer: 0
   m_Name: New Piskel-1.png-2.png (1)_0 (2)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1202,7 +1202,7 @@ GameObject:
   - component: {fileID: 7458608655554089354}
   m_Layer: 0
   m_Name: New Piskel-1.png-2.png (1)_0
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1335,7 +1335,7 @@ GameObject:
   - component: {fileID: 3648367687057115948}
   m_Layer: 0
   m_Name: New Piskel-1.png-2.png (1)_0 (1)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1687,7 +1687,7 @@ GameObject:
   - component: {fileID: 7049171557708793882}
   m_Layer: 0
   m_Name: New Piskel-1.png-1.png_0
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
