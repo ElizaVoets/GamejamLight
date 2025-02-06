@@ -1,6 +1,7 @@
 using Unity.Mathematics;
 using UnityEditor.U2D;
 using UnityEngine;
+using UnityEngine.Audio;
 
 public class Movement : MonoBehaviour
 {
@@ -20,12 +21,16 @@ public class Movement : MonoBehaviour
     public SpriteRenderer spriteRenderer;
     private Vector2 movement; // Beweging vector
 
+    //audio
+    public AudioSource JumpSound;
+
     void Start()
     {
         jumps = 1;
         dashes = 1;
         // Verkrijg de Rigidbody2D component
         rb = GetComponent<Rigidbody2D>();
+        JumpSound = gameObject.GetComponent<AudioSource>();
     }
 
     void Update()
@@ -75,6 +80,7 @@ public class Movement : MonoBehaviour
         // Voeg een sprongetje toe
         movement.y = jumpForce;
         isGrounded = false; // De speler is nu in de lucht
+        JumpSound.Play();
     }
     void Dash()
     {
