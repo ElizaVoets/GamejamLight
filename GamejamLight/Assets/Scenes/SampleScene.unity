@@ -190,7 +190,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1857237159698380972, guid: f36ac759ec691a24692e0456e59f2bd2, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.25
+      value: -0.17
       objectReference: {fileID: 0}
     - target: {fileID: 1857237159698380972, guid: f36ac759ec691a24692e0456e59f2bd2, type: 3}
       propertyPath: m_LocalPosition.z
@@ -227,10 +227,6 @@ PrefabInstance:
     - target: {fileID: 7683120502126826253, guid: f36ac759ec691a24692e0456e59f2bd2, type: 3}
       propertyPath: m_Name
       value: Magnus Irrumatus
-      objectReference: {fileID: 0}
-    - target: {fileID: 8851620141146030374, guid: f36ac759ec691a24692e0456e59f2bd2, type: 3}
-      propertyPath: dashDistance
-      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

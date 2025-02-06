@@ -1,0 +1,489 @@
+fileFormatVersion: 2
+guid: 04ba9c05de71f6443bd17404996a301f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8663205521511432291
+    second: SpriteMagnusIrrumatus_0
+  - first:
+      213: 1536479137210570907
+    second: SpriteMagnusIrrumatus_1
+  - first:
+      213: -6819220360487018142
+    second: SpriteMagnusIrrumatus_2
+  - first:
+      213: -4862690793793635201
+    second: SpriteMagnusIrrumatus_3
+  - first:
+      213: 6908787042006581731
+    second: SpriteMagnusIrrumatus_4
+  - first:
+      213: 5054312432863891642
+    second: SpriteMagnusIrrumatus_5
+  - first:
+      213: -4353614819452334328
+    second: SpriteMagnusIrrumatus_6
+  - first:
+      213: -2165885905772664671
+    second: SpriteMagnusIrrumatus_7
+  - first:
+      213: -6458005703224899211
+    second: SpriteMagnusIrrumatus_8
+  - first:
+      213: -8699135106945193150
+    second: SpriteMagnusIrrumatus_9
+  - first:
+      213: 8240528889835911184
+    second: SpriteMagnusIrrumatus_10
+  - first:
+      213: 4848332488582167145
+    second: SpriteMagnusIrrumatus_11
+  - first:
+      213: -3841970029695435778
+    second: SpriteMagnusIrrumatus_12
+  - first:
+      213: 5148876893401813404
+    second: SpriteMagnusIrrumatus_13
+  - first:
+      213: 5647279868363335177
+    second: SpriteMagnusIrrumatus_14
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: SpriteMagnusIrrumatus_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 175
+        height: 175
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d559a38825b931d4b9ffd2f5ed220bf1
+      internalID: 1169086778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteMagnusIrrumatus_1
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 0
+        width: 175
+        height: 175
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0231a96a3303025409b9cf12f9eeefe0
+      internalID: -1769377500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteMagnusIrrumatus_2
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 0
+        width: 175
+        height: 175
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5498a224729645f4a91632e91d8c279c
+      internalID: -998514379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteMagnusIrrumatus_3
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 0
+        width: 175
+        height: 175
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58bde8703bef8c5419ac6682cdda3022
+      internalID: 1896286787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteMagnusIrrumatus_4
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 0
+        width: 175
+        height: 175
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 898d4c73372a59049a83b7606492b199
+      internalID: -1324451736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteMagnusIrrumatus_5
+      rect:
+        serializedVersion: 2
+        x: 875
+        y: 0
+        width: 175
+        height: 175
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7194bf64a751b004699e07563c8be54b
+      internalID: 589034316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteMagnusIrrumatus_6
+      rect:
+        serializedVersion: 2
+        x: 1050
+        y: 0
+        width: 175
+        height: 175
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6dcce90d5148174ab9af6bf54e056cb
+      internalID: -59000651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteMagnusIrrumatus_7
+      rect:
+        serializedVersion: 2
+        x: 1225
+        y: 0
+        width: 175
+        height: 175
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5aa4565e240dd5243b058ea4494e1ef7
+      internalID: -678998928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteMagnusIrrumatus_8
+      rect:
+        serializedVersion: 2
+        x: 1400
+        y: 0
+        width: 175
+        height: 175
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 198a15e1e11e31c4cbaf4186eae814e8
+      internalID: 710465073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteMagnusIrrumatus_9
+      rect:
+        serializedVersion: 2
+        x: 1575
+        y: 0
+        width: 175
+        height: 175
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58885949794a4bc44a3d16fbc21cf7f3
+      internalID: 540977694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteMagnusIrrumatus_10
+      rect:
+        serializedVersion: 2
+        x: 1750
+        y: 0
+        width: 175
+        height: 175
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 024bec57e238ff244be1e39f0bb477ba
+      internalID: 1148212778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteMagnusIrrumatus_11
+      rect:
+        serializedVersion: 2
+        x: 1925
+        y: 0
+        width: 175
+        height: 175
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 324bef69f557dbd44b7040a9bda871c4
+      internalID: -1395222841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteMagnusIrrumatus_12
+      rect:
+        serializedVersion: 2
+        x: 2100
+        y: 0
+        width: 175
+        height: 175
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 594c2c93e8d197f42bd15fbbaceeb2c5
+      internalID: -1951983897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteMagnusIrrumatus_13
+      rect:
+        serializedVersion: 2
+        x: 2275
+        y: 0
+        width: 175
+        height: 175
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 399904b9108df6147868fb0429df68b0
+      internalID: -1021588297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteMagnusIrrumatus_14
+      rect:
+        serializedVersion: 2
+        x: 2450
+        y: 0
+        width: 175
+        height: 175
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7805bfe68d4bb0f4b9da3c85b122c9b2
+      internalID: 1854145175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: d505226aa35b29d4995ca3975245bf8c
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      SpriteMagnusIrrumatus_0: 1169086778
+      SpriteMagnusIrrumatus_1: -1769377500
+      SpriteMagnusIrrumatus_10: 1148212778
+      SpriteMagnusIrrumatus_11: -1395222841
+      SpriteMagnusIrrumatus_12: -1951983897
+      SpriteMagnusIrrumatus_13: -1021588297
+      SpriteMagnusIrrumatus_14: 1854145175
+      SpriteMagnusIrrumatus_2: -998514379
+      SpriteMagnusIrrumatus_3: 1896286787
+      SpriteMagnusIrrumatus_4: -1324451736
+      SpriteMagnusIrrumatus_5: 589034316
+      SpriteMagnusIrrumatus_6: -59000651
+      SpriteMagnusIrrumatus_7: -678998928
+      SpriteMagnusIrrumatus_8: 710465073
+      SpriteMagnusIrrumatus_9: 540977694
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
